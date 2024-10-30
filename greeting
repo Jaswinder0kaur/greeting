@@ -1,0 +1,14 @@
+import time
+a=time.strftime("%H:%M:%S")
+a=int(input("enter the value"))
+print(a)
+if a>=4 and a<12:
+    print("good morning sir",a)
+elif a>=12 and a<18:
+    print("good afterenon sir",a)
+elif a>=18 and a<20:
+    print("good evning sir",a)
+elif a>=20 and a<24:
+    print("good night sir",a)
+else:
+    print("run your program your again")  
